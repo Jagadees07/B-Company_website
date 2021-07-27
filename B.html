@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Style sheet-->   
+    <link rel="stylesheet" type="text/css" href="B.css">
+
+    <!--Font-awesome-->
+    <script src="https://kit.fontawesome.com/7f889aaa21.js" crossorigin="anonymous"></script>
+
+    <title>Company B</title>
+  </head>
+  <body> 
+    <!--Navbar-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav">
+              <a class="navbar-brand" href="#">
+                <div class="box"><p class="logo">B</p></div>
+               </a>
+            </ul>  
+            <ul class="navbar-nav" id="just">
+              <li>
+                <a class="nav-link" href="#">HOME</a>
+              </li>  
+              <li>
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#">SERVICES</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#">TEAM</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#">CLIENTS</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>              
+              <li>  
+                <a style="color: white;"><i class="fas fa-search"></i></a>
+              </li>            
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!--Carousal-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active darkened-image">  
+          <img src="Images/BIMAGE1.png" class="d-block w-100">
+          <div class="centered">WELCOME TO MY NEW WEBSITE</div>
+          <div class="centered1">WE CREATE</div>  
+          <div class="centered2">CAREERS</div>  
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-item active darkened-image">  
+          <img src="Images/BIMAGE2.png" class="d-block w-100">
+          <div class="centered3">"CHOOSE A JOB YOU LOVE, AND YOU WILL</div>  
+          <div class="centered4"> NEVER HAVE TO WORK A DAY IN YOUR LIFE"</div>  
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      </button>
+    </div>
+
+<!---------------------------------------------- BELOW CAROUSEL --------------------------------------------------->
+    <section class="container" id="below">  
+      <div class="main-content">
+        <div class="row">
+          <div class="col-sm-3">
+            <img src="Images/icon1.png" style="width: 40px; top: 20px;">
+            <div class="text">
+              <h5>GLOBAL STRATEGY</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor.</p>
+            </div>
+          </div>
+
+          <div class="col-sm-3 vl">
+            <div><i class="far fa-comment-alt" id="icon"></i></div>
+            <div class="text">
+              <h5>GLOBAL STRATEGY</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor.</p>
+            </div>
+          </div>
+
+          <div class="col-sm-3 vl">
+            <div><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTguNTEzIDcuMTE5Yy45NTgtMS4xNDMgMS40ODctMi41NzcgMS40ODctNC4wMzZ2LTMuMDgzaC0xNnYzLjA4M2MwIDEuNDU5LjUyOCAyLjg5MiAxLjQ4NyA0LjAzNWwzLjA4NiAzLjY4Yy41NjcuNjc3LjU3MSAxLjYyNS4wMDkgMi4zMDZsLTMuMTMgMy43OTRjLS45MzYgMS4xMzYtMS40NTIgMi41NTUtMS40NTIgMy45OTV2My4xMDdoMTZ2LTMuMTA3YzAtMS40NC0uNTE3LTIuODU4LTEuNDUzLTMuOTk0bC0zLjEzLTMuNzk0Yy0uNTYyLS42ODEtLjU1OC0xLjYyOS4wMDktMi4zMDZsMy4wODctMy42OHptLTQuNjM5IDcuMjU3bDMuMTMgMy43OTRjLjY1Mi43OTIuOTk2IDEuNzI2Ljk5NiAyLjgzaC0xMmMwLTEuMTA0LjM0My0yLjAzOS45OTYtMi44MjlsMy4xMjktMy43OTNjMS4xNjctMS40MTQgMS4xNTktMy40NTktLjAxOS00Ljg2NGwtMy4wODYtMy42ODFjLS42Ni0uNzg1LTEuMDItMS43MzYtMS4wMi0yLjgzNGgxMmMwIDEuMTAxLS4zNjMgMi4wNS0xLjAyIDIuODM0bC0zLjA4NyAzLjY4Yy0xLjE3NyAxLjQwNS0xLjE4NSAzLjQ1MS0uMDE5IDQuODYzeiIvPjwvc3ZnPg==" id="icon"></div>
+            <div class="text">
+              <h5>GLOBAL STRATEGY</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor.</p>
+            </div>
+          </div>
+
+          <div class="col-sm-3 vl">
+            <div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 7v15h24v-15h-24zm22 13h-20v-6h6v-2h-6v-3h20v3h-6v2h6v6zm-13-15.5c0-.276.224-.5.5-.5h5c.276 0 .5.224.5.5v1.5h2v-2c0-1.104-.896-2-2-2h-6c-1.104 0-2 .896-2 2v2h2v-1.5zm5 6.5h-4v4h4v-4z"/></svg></div>
+          <div class="text">
+              <h5>GLOBAL STRATEGY</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor.</p>
+            </div>
+        </div>
+      </div>
+    </section>  
+
+<!---------------------------------------------- MEET OUR COMPANY ---------------------------------------------->
+    <section class="meet">
+      <div class="row container">
+        <div class="col-sm-6" id="meeting">
+          <h3>MEET OUR COMPANY</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore
+           et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation
+           ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+           <button type="button" style="background-color: #4c85c8; border: none; color: white; font-size: 20px;"><span style="font-size: 14px; padding: 10px; border-radius: 5px;">SEE OUR LATEST WORK</span></button> 
+        </div>
+        <div class="col-sm-6">
+          <img src="Images/videoimage.jpg" class="img-fluid img-responsive" id="video">
+        </div>
+      </div>
+    </section>
+
+<!---------------------------------------------- IMAGES --------------------------------------------------->
+
+  <section class="images">
+    <div class="row container">
+      <div class="col-sm-4" id="ind">
+        <div class="container">
+          <img src="Images/photo1.png" class="image">
+          <h6>OUR MISSION STATEMENT</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#">KNOW MORE <i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-sm-4" id="ind">
+        <div class="container">  
+          <img src="Images/photo2.png" class="image">
+          <h6>ACHIEVING OUR GOALS IN 2021</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#">KNOW MORE <i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-sm-4" id="ind">
+        <div class="container">  
+          <img src="Images/photo3.png" class="image">
+          <h6>OUR ANNUAL REPORT</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#">KNOW MORE <i class="fas fa-angle-double-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!---------------------------------------------- RATE ---------------------------------------------------->
+  <section class="rate">
+    <div class="row bg-text container">
+      <div class="col-sm-6" id="rating">
+        <h3>MEET OUR COMPANY</h3>
+        <p style="font-weight: 600;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore
+         et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation
+         ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+         <button type="button" style="background-color: #4c85c8; border: none; color: white; font-size: 20px;"><span style="font-size: 14px; padding: 10px; border-radius: 5px;">SEE OUR LATEST WORK</span></button> 
+      </div>
+      <div class="col-sm-6">
+        <table>
+          <tr>
+            <th>GLOBALLY </th>
+            <td>
+              <div style="background-color: white!important; width:120px; height: 15px; border-radius: 20px;">
+                <p class="simma">.</p>
+              </div>
+            </td>
+            <td style="font-weight: bold;">20%</td>
+          </tr>
+          <tr>
+            <th>CORPORATE</th>
+            <td>
+              <div style="background-color: white!important; width:170px; height: 15px;border-radius: 20px;">
+                <p class="simma">.</p>
+              </div>
+            </td>
+            <td style="font-weight: bold;">45%</td>
+          <tr>
+            <th>INVESTMENT</th>
+            <td>
+              <div style="background-color: white!important; width:250px; height: 15px;border-radius: 20px;">
+                <p class="simma">.</p>
+              </div>
+            </td>
+            <td style="font-weight: bold;">75%</td>
+          </tr>  
+          <tr>
+            <th>MARKETTING</th>
+            <td>
+              <div style="background-color: white!important; width:290px; height: 15px;border-radius: 20px;">
+                <p class="simma">.</p>
+              </div>
+            </td>
+            <td style="font-weight: bold;">95%</td>
+          </tr>
+        </table>
+      </div>   
+    </div>
+  </section>
+
+<!---------------------------------------------- SUMMA ---------------------------------------------------->  
+  
+  <section style="background-color: #4c85c8;">
+    <div class="container" id="Iicons">
+      <i class="fab fa-html5"></i>     
+      <i class="fab fa-slack"></i>
+      <i class="fab fa-joomla"></i>
+      <i class="fas fa-blog"></i>
+      <i class="fab fa-css3-alt"></i>
+    </div>
+  </section>
+
+<!---------------------------------------------- FOOTER ---------------------------------------------------->   
+
+  <footer>
+    <div class="row">  
+      <div class="col-sm-3" id="first"> 
+       <a class="navbar-brand" href="#">
+          <div class="boxed"><p class="logoed">B</p></div>
+        </a>
+        <p class="fist">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud.</p>
+        <i class="fas fa-link"></i><i class="fab fa-twitter"></i><i class="fab fa-facebook"></i><i class="fab fa-linkedin-in"></i>
+      </div> 
+
+      <div class="col-sm-3" id="second">
+        <h6>ADDITIONAL LINKS</h6>
+        <a class="simple">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor.</a>
+        <p class="para">Contact our marketing team</p>
+        <p class="para">See our clients</p>
+        <p class="para">Sign up for updates</p>
+        <p class="para">Copyright info</p>
+      </div> 
+
+      <div class="col-sm-3" id="second">
+        <h6>ADDITIONAL LINKS</h6>
+        <a class="simple">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor.</a>
+        <p class="para">Contact our marketing team</p>
+        <p class="para">See our clients</p>
+        <p class="para">Sign up for updates</p>
+        <p class="para">Copyright info</p>
+      </div> 
+
+      <div class="col-sm-3" id="forth">
+        
+      </div> 
+    </div>
+
+    <section class="copyright">
+      Copyright : &copy; 2021. All rights reserved.
+    </section>  
+  </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
+
+<!-- <input type="range" min="0" max="100" step="25"> -->
